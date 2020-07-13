@@ -38,11 +38,30 @@ public static void main(String[] args) {
 		for (int j = 0; j < 3; j++) {
 			System.out.println(i +" " + j );
 			
-		}*/
-for (int i = 1; i < 3; i++) {
-	System.out.println((i+1*i) + " " + (i+2*i) + " " + (i+3*i));
+		}
+for (int i = 1; i < 9; i+=3) {
+	System.out.println((i) + " " + (i+1) + " " + (i+2));
+	
 }	
-
+for (int i = 1; i < 9; i+=3) {
+	for (int j = 0; j < 1; j++) {
+		
+	
+	System.out.println((i) + " " + (i+1) + " " + (i+2));
+	
+}	}
+for (int i= 1; i < 101; i+=10) {
+	for (int j = i; j < i+10; j++) {
+		System.out.print(j+" ");
+	}
+System.out.println();
+}*/
+for (int i = 0; i < 6; i++) {
+	for (int j = 0; j < i+1; j++) {
+		System.out.print("*");
+	}
+	System.out.println();
+}
 }
 	
 	
